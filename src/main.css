@@ -40,8 +40,10 @@ a {
 
 
 .img-background {
-  -webkit-backdrop-filter: blur (15px);
-  backdrop-filter: blur (15px);
+  max-width: 96%;
+  max-height: 100%;
+  filter: blur(5px);
+  transform: scale(1.1);
 }
 
 
