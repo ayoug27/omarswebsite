@@ -11,6 +11,7 @@ HEADER
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .header .header-logo {
@@ -38,13 +39,30 @@ a {
     text-decoration: none;  /* Permet d'enlever le soulignage automatique */
 }
 
-
-.img-background {
-  width: 96%;
-  height: auto;
-  filter: blur(5px);
-  transform: scale(1.1);
+.image2 {
+    background-image:url("../noir.jpg");
+    opacity: 0.5;
+    padding: 300px;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    height : 10%;
+    width: 50%;
 }
+
+/*.text2 {
+    text-align: center;
+}*/
+
+body{
+    background-image:url("../tacos_bien_saignant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: fixed;
+    color: #FFFFFF;
+}
+
 
 /* recrutement texte */
 
