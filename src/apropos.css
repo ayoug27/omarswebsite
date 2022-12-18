@@ -1,17 +1,110 @@
-body {
+/*
+HEADER
+*/
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+
+}
+
+.logo-mars {
+    margin-top: 30px;
+}
+
+.header .header-menu {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.header .header-menu a {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+
+a {
+    text-decoration: none;  /* Permet d'enlever le soulignage automatique */
+}
+
+.produits {transition: ease-in-out 0.5s;}
+a.produits:hover {font-size: 110%; color: #1E90FF;}
+a.restaurants {transition: ease-in-out 0.5s;}
+a.restaurants:hover {font-size:110%; color: #1E90FF;}
+a.contact {transition: ease-in-out 0.5s;}
+a.contact:hover {font-size:110%; color: #1E90FF;}
+a.recrutement {transition: ease-in-out 0.5s;}
+a.recrutement:hover {font-size:110%; color: #1E90FF;}
+a.a_propos {transition: ease-in-out 0.5s;}
+a.a_propos:hover {font-size:110%; color: #1E90FF;}
+
+/* O'Mars logo transition */
+a.header-logo {transition: ease-in-out 0,5s;}
+a.header-logo:hover {font-size: 110%; color: #1E90FF;}
+
+
+
+
+   body {                            /* body utilisé pour l'image de fond */                        
     background-image:url("../vitrine_a_propos.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
+    height:100%;
+    width:100%;
+    background-attachment: fixed;
   }
 
 
-.support {
+.support {                          /* support noir transparent et scrollable de tout le contenu */
     background-image: url("../noir.jpg");
-    opacity: 0.5;
-    width: 70%;
-    color :blue;
-    position: static;
-    margin: center;
+    opacity: 0.85;
+    width: 90%;
+    color :whitesmoke;
     display: block;
-
+    text-align: left;
+    margin:auto;
+    height: auto;
+    
 }
+
+#image_mars {                   
+    width: 27.5%;
+    height: 27.5%;
+    float:left;
+}
+
+
+.fondateurs {                
+    width: 400px;
+    height: 400px;
+}
+
+.legendes {
+    font-size:200%;
+}
+
+
+
+#avis {
+    float:left;
+}
+
+
