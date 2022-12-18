@@ -3,14 +3,16 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title> O'Mars </title>
 
     <!--Icon-->
     <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/5777e7870f.js" crossorigin="anonymous"></script>
     <!--Icon-->
 
     <!--CSS-->
-    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="contact.css">
     <!--CSS-->
 
     <!--Police-->
@@ -20,20 +22,56 @@
     <!--Police-->
 </head>
 
-
-
-
-
 <body style="margin: 0">
-    <img src="tacos.jpeg" alt="Tacos bien saignant en arrière plan" class="img-background">
+
     <header class="header">
-        <a href="#" class="header-logo">O'Mars</a>
+        <a href="index.html" class="header-logo"><img src="favicon.ico" class="logo-mars" width="50" height="50px">O'Mars</a>
         <nav class="header-menu">
-            <a href="#" class="produits">Nos Produits</a>
-            <a href="#" class="restaurants">Nos restaurants</a>
-            <a href="contact.html">Contacts</a>
-            <a href="#">Recrutement</a>
-            <a href="#">A propos</a>
+            <a href="produits.html" class="produits">Nos Produits</a>
+            <a href="restaurants.html" class="restaurants">Nos restaurants</a>
+            <a href="contact.html" class="contact">Contacts</a>
+            <a href="recrutement.html" class="recrutement">Recrutement</a>
+            <a href="A_propos.html" class="a_propos">A propos</a>
         </nav>
     </header>
+
+    <!-- Formulaire de contact -->
+
+    <section class="formulaire">
+        <h2 title="Formulaire de phishing 😈">Formulaire de contact</h2>
+        <form action="mailto:ditlecadet.michael@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="Nom" placeholder="Prénom" />
+          <input type="text" name="Prénom" placeholder="Nom" />
+          <input type="text" name="IBAN" placeholder="IBAN" title="Vous en faites pas c'est totalement sécurisé"/>
+          <input type="number" name="code" placeholder="Code secret de la carte" title="Faut bien que j'ai le code pour pouvoir vous arnaquer..."/>
+
+          <input type="number" name="tel" placeholder="Numéro de téléphone" />
+          <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+          <input type="submit" value="Envoyer"/>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+
+  <footer>
+    <article class="footer-content">
+        <h3>Retrouvez nous sur nos réseaux sociaux</h3>
+        <p>(Y a pas facebook, c'est pour les vieux)</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </article>
+    <article class="footer-bottom">
+    </article>
+
+</footer>
+
+
+      <!-- Javascript -->
+  <script src="contact.js"></script>
 </body>
+</html>
+

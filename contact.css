@@ -1,0 +1,195 @@
+/*
+HEADER
+*/
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+
+}
+
+.logo-mars {
+    margin-top: 30px;
+}
+
+.header .header-menu {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.header .header-menu a {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+
+a {
+    text-decoration: none;  /* Permet d'enlever le soulignage automatique */
+}
+
+body{
+    background-image:url("../tacos_bien_saignant.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+
+
+/* Couleur et taille des liens */
+
+a.produits {transition: ease-in-out 0.5s;}
+a.produits:hover {font-size: 110%; color: #1E90FF;}
+a.restaurants {transition: ease-in-out 0.5s;}
+a.restaurants:hover {font-size:110%; color: #1E90FF;}
+a.contact {transition: ease-in-out 0.5s;}
+a.contact:hover {font-size:110%; color: #1E90FF;}
+a.recrutement {transition: ease-in-out 0.5s;}
+a.recrutement:hover {font-size:110%; color: #1E90FF;}
+a.a_propos {transition: ease-in-out 0.5s;}
+a.a_propos:hover {font-size:110%; color: #1E90FF;}
+
+
+/* Formulaire de contact */
+
+.formulaire{
+	font-family: 'Montserrat', arial;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	margin-top: 10%;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.formulaire h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire input[type="number"],
+.formulaire input[type="password"],
+.formulaire textarea,
+.formulaire select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.formulaire textarea{
+	resize:none;
+	overflow: hidden;
+}
+.formulaire input[type="button"], 
+.formulaire input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+    padding: 12px 36px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+.formulaire input[type="button"]:hover, 
+.formulaire input[type="submit"]:hover {
+	background:linear-gradient(90deg,#06869c,#8de2e2);
+	background-color:#34CACA;
+    transition: ease-in-out 0.4s;
+    font-size: 110%;
+}
+
+/* Pied de page */
+
+footer{
+	position: absolute;
+	bottom: -20%;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100%;
+  
+	padding-top: 40px;
+	color: #fff;
+  }  
+
+/* Contenu du pied de page */
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+  }
+  
+  .socials{
+	position: relative;
+	display: flex;
+	margin-left: -7%;
+  }
+  
+  .socials li{
+	position: relative;
+	list-style: none;
+	margin: 10%;
+  }
+  
+  .socials li a{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-size: 170%;
+  }
+  
+  .socials li a:hover{
+	top: -20%;
+  }
+  
+  
