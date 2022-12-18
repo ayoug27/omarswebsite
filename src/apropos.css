@@ -1,0 +1,17 @@
+body {
+    background-image:url("../vitrine_a_propos.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+.support {
+    background-image: url("../noir.jpg");
+    opacity: 0.5;
+    width: 70%;
+    color :blue;
+    position: static;
+    margin: center;
+    display: block;
+
+}

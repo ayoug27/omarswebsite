@@ -155,6 +155,11 @@ body{
   to {opacity: 1}
 }
 
+
+.apropos {
+  background-image:url("../vitrine_a_propos.jpg");
+}
+
 /* Couleur et taille des liens */
 
 a.produits {transition: ease-in-out 0.5s;}
