@@ -11,6 +11,17 @@
 }
 
 
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
 
 /*
 HEADER
@@ -75,7 +86,8 @@ body{
   max-width: 50%;
   position: relative;
   margin-top: 10%;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Légende */
