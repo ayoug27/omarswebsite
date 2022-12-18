@@ -1,3 +1,17 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
 /*
 HEADER
 */
@@ -64,40 +78,7 @@ body{
   margin-left: 25%;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
+/* Légende */
 .text {
   color: #f2f2f2;
   font-size: 20px;
@@ -109,7 +90,7 @@ body{
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
+/* Les cercles qui permettent le changement d'image */
 .cercle {
   cursor: pointer;
   height: 15px;
@@ -125,14 +106,14 @@ body{
   background-color: #282A35;
 }
 
-/* Fading animation */
+/* Animation de changement d'image */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0.5}
   to {opacity: 1}
 }
 
@@ -149,12 +130,54 @@ a.recrutement:hover {font-size:110%; color: #1E90FF;}
 a.a_propos {transition: ease-in-out 0.5s;}
 a.a_propos:hover {font-size:110%; color: #1E90FF;}
 
-/* O'Mars logo transition */
-a.header-logo {transition: ease-in-out 0,5s;}
-a.header-logo:hover {font-size: 110%; color: #1E90FF;}
+/* Pied de page */
 
+footer{
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100%;
 
+  padding-top: 40px;
+  color: #fff;
+}
 
+/* Contenu du pied de page */
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socials{
+  position: relative;
+  display: flex;
+  margin-left: -7%;
+}
+
+.socials li{
+  position: relative;
+  list-style: none;
+  margin: 10%;
+}
+
+.socials li a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 170%;
+}
+
+.socials li a:hover{
+  top: -20%;
+}
 
 
 
