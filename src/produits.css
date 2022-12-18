@@ -1,3 +1,4 @@
+
 /*
 HEADER
 */
@@ -38,4 +39,76 @@ HEADER
 .header .header-menu a {
     margin-left: 15px;
     color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    /* Permet d'enlever le soulignage automatique */
+}
+
+.section {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #ffffff;
+        font-size: 15px;
+        font-family: 'Arial Rounded MT Bold';
+}
+
+.intro {
+    font-size: 35px;
+}
+
+.titre {
+    color: #bd1818;
+        font-size: 60px;
+        font-family: 'Arial Rounded MT Bold', sans-serif;
+    text-align: center;
+}
+
+.h3l {
+    color:#f76d6d;
+    font-size: 25px;
+    text-align: left;
+}
+
+.pl {
+    text-align: left;
+}
+
+.pr {
+    text-align: right;
+}
+
+.h3r {
+    color: #f76d6d;
+    font-size: 25px;
+    text-align: right;
+}
+
+.imgl {
+    display: block;
+    margin-left: auto;
+    margin-top: -5%;
+    width: 15%;
+    height: 15%;
+    border-radius: 10px;
+}
+
+.imgr {
+    display: block;
+    margin-right: auto;
+    margin-top: -5%;
+    width: 15%;
+    height: 15%;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("../tacos_bien_saignant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
 }
